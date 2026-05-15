@@ -10,13 +10,11 @@ tp-yt-app-drawer,
   color: #f1f1f1 !important;
 }
 
-/* Masthead / top nav */
 #masthead-container,
 ytd-masthead {
   background-color: #000000 !important;
 }
 
-/* Search bar */
 ytd-searchbox,
 #search-input input {
   background-color: #0a0a0a !important;
@@ -24,34 +22,29 @@ ytd-searchbox,
   border-color: #333 !important;
 }
 
-/* Video cards / thumbnails area */
 ytd-rich-item-renderer,
 ytd-video-renderer,
 ytd-compact-video-renderer {
   background-color: #000000 !important;
 }
 
-/* Sidebar / watch page */
 #secondary,
 #related {
   background-color: #000000 !important;
 }
 
-/* Comments section */
 ytd-comments,
 ytd-comment-thread-renderer,
 ytd-comment-renderer {
   background-color: #000000 !important;
 }
 
-/* Dropdown menus & popups */
 tp-yt-paper-dialog,
 ytd-popup-container,
 ytd-menu-popup-renderer {
   background-color: #0d0d0d !important;
 }
 
-/* Remove YT's dark grey -- force true black */
 [style*="background-color: rgb(15, 15, 15)"],
 [style*="background-color: rgb(24, 24, 24)"],
 [style*="background-color: rgb(33, 33, 33)"] {
