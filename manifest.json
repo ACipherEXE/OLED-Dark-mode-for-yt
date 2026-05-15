@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube OLED Black",
+  "version": "1.0",
+  "description": "True OLED black theme for YouTube",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YouTube OLED Black"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
